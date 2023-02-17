@@ -5,3 +5,23 @@ body{
 h1{
     font-size: 50px;
 }
+
+.highlight{
+    color:rgb(23, 158, 113)
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width baton {
+    color: black;
+}
+
