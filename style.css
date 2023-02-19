@@ -22,13 +22,26 @@ h1{
     width: 80%;
 }
 
-.half-width baton {
-    color: rgb(139, 82, 82);
-}
 
 .top-banner{
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
+}
+
+.button{
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: linear-gradient( 45deg, rgb(228, 166, 52), tomato);
+}
+
+.bg{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
 }
 
 section{
