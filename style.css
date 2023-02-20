@@ -79,12 +79,21 @@ h1{
     border-left: 4px solid black;
     border-image: linear-gradient( 190deg, rgb(84, 134, 84), rgb(238, 155, 1) );
     border-image-slice: 1;
+    background-color: rgb(223, 235, 247);
+
 }
 
 #snd-side-color{
     border-left: 4px solid black;
     border-image: linear-gradient( 190deg, rgb(124, 142, 243), rgb(196, 140, 140) );
     border-image-slice: 1;
+    background-color: rgb(223, 235, 247);
+}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 section{
