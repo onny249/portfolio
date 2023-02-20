@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-size: 15px;
 }
 
 h1{
@@ -9,6 +10,9 @@ h1{
 
 .highlight{
     color:rgb(23, 158, 113)
+}
+.exp-highlight{
+    color: orange
 }
 
 .half-width{
@@ -41,9 +45,49 @@ h1{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 80px;
+}
+
+.snd-width{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding: 4%;
+}
+
+.Experiences-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
     background-size: 100px;
+
+}
+
+.Experiences-area h1 {
+    text-align: center;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    /* eikhane 1st 10px holo right side er jonn0 porer 10px holo 10px holo
+    bottom er jonno ebong 40px holo gray color ta ke chardike shoman vabe chorai deoyar jonno*/
+    border-radius: 6px;
+   
+}
+
+#side-color{
+    border-left: 4px solid black;
+    border-image: linear-gradient( 190deg, rgb(84, 134, 84), rgb(238, 155, 1) );
+    border-image-slice: 1;
+}
+
+#snd-side-color{
+    border-left: 4px solid black;
+    border-image: linear-gradient( 190deg, rgb(124, 142, 243), rgb(196, 140, 140) );
+    border-image-slice: 1;
 }
 
 section{
+    padding: 4%;
     height: 500px;
 }
